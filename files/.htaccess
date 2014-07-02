@@ -1,0 +1,5 @@
+<FilesMatch ".(sql|log)$">
+    Order allow,deny
+    Deny from all
+    Satisfy All
+</FilesMatch>
